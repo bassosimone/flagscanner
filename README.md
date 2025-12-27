@@ -4,7 +4,7 @@
 
 The `flagscanner` Go package contains a scanner for lexing and
 classifying command line arguments. It is a building block that
-enables building command-line flags parsers.
+enables building command-line-flags parsers.
 
 For example:
 
@@ -26,8 +26,8 @@ tokens := scanner.Scan(os.Args[1:])
 ```
 
 The above example configures GNU style options but we support a
-wide variety of command-line-flags styles (including Go, dig, Windows,
-and traditional Unix). See [example_test.go](example_test.go).
+wide variety of command-line-flags styles including Go, dig, Windows,
+and traditional Unix. See [example_test.go](example_test.go).
 
 ## Installation
 
