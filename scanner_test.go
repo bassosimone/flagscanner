@@ -34,7 +34,7 @@ func TestTokenIndex(t *testing.T) {
 		t.Run(tt.name, func(t *testing.T) {
 			got := tt.token.Index()
 			if got != tt.expected {
-				t.Errorf("Token.Index() = %q, want %q", got, tt.expected)
+				t.Errorf("Token.Index() = %d, want %d", got, tt.expected)
 			}
 		})
 	}
